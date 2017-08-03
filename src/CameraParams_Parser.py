@@ -50,7 +50,6 @@ class CameraParams:
 
         # Read the Camera Params file
         try:
-
             with open(txt_file) as f:
                 self.txt = f.readlines()
             idx = 59  # The index where the attributes begin
